@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="header.css
+">
+<link rel="stylesheet" href="video.css
+">
+<link rel="stylesheet" href="general.css
+">
+<link rel="stylesheet" href="sidebar.css">
+
+<head>
+  <title>YouTube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="hamburger-menu.svg">
+      <img class="youtube-logo" src="youtube-logo.svg">
+    </div>
+
+    <div class="middle-section"><input class="search-bar" type="text" placeholder="Search">
+      <button class="searchb">
+        <img class="si" src="search.svg"><div class="tooltip">Search</div>
+      </button>
+      <button class="voiceb">
+        <img class="vi" src="voice-search-icon.svg"><div class="tooltip">Voice Search</div>
+      </button>
+
+    </div>
+    <div class="right-section">
+      <img class="ui" src="upload.svg">
+      <img class="yai" src="youtube-apps.svg">
+      <div class="notification-icon-container">
+      <img class="ni" src="notifications.svg"><div class="notification-count">3</div></div>
+      <img class="myi" src="my-channel.jpg">
+    </div>
+  </div>
+
+  <div class="sidebar">
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g class="style-scope yt-icon"><path d="M4,10V21h6V15h4v6h6V10L12,3Z" class="style-scope yt-icon"></path></g></svg><div>Home</div></div>
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g height="24" viewBox="0 0 24 24" width="24" class="style-scope yt-icon"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86l-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z" class="style-scope yt-icon"></path></g></svg><div>Explore</div></div>
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g class="style-scope yt-icon"><path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z" class="style-scope yt-icon"></path></g></svg><div>Subscriptions</div></div>
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g class="style-scope yt-icon"><path d="M10,9.35,15,12l-5,2.65ZM12,6a54.36,54.36,0,0,0-7.56.38A1.53,1.53,0,0,0,3.38,7.44,24.63,24.63,0,0,0,3,12a24.63,24.63,0,0,0,.38,4.56,1.53,1.53,0,0,0,1.06,1.06A54.36,54.36,0,0,0,12,18a54.36,54.36,0,0,0,7.56-.38,1.53,1.53,0,0,0,1.06-1.06A24.63,24.63,0,0,0,21,12a24.63,24.63,0,0,0-.38-4.56,1.53,1.53,0,0,0-1.06-1.06A54.36,54.36,0,0,0,12,6h0m0-1s6.25,0,7.81.42a2.51,2.51,0,0,1,1.77,1.77A25.87,25.87,0,0,1,22,12a25.87,25.87,0,0,1-.42,4.81,2.51,2.51,0,0,1-1.77,1.77C18.25,19,12,19,12,19s-6.25,0-7.81-.42a2.51,2.51,0,0,1-1.77-1.77A25.87,25.87,0,0,1,2,12a25.87,25.87,0,0,1,.42-4.81A2.51,2.51,0,0,1,4.19,5.42C5.75,5,12,5,12,5Z" class="style-scope yt-icon"></path></g></svg><div>Originals</div></div>
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g class="style-scope yt-icon"><path d="M10 9.35L15 12l-5 2.65zM12 7a5 5 0 105 5 5 5 0 00-5-5m0-1a6 6 0 11-6 6 6 6 0 016-6zm0-3a9 9 0 109 9 9 9 0 00-9-9m0-1A10 10 0 112 12 10 10 0 0112 2z" class="style-scope yt-icon"></path></g></svg><div>Music</div></div>
+  <div class="sidebar-link"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 38%; height: 38%;"><g class="style-scope yt-icon"><path d="M11,7l6,3.5L11,14V7L11,7z M18,20H4V6H3v15h15V20z M21,18H6V3h15V18z M7,17h13V4H7V17z" class="style-scope yt-icon"></path></g></svg><div>Library</div></div></div>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="thumbnail" src="thumbnail-1.webp"></a>
+      <div class="video-time">14.20</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/c/mkbhd"><img class="profile-picture" src="channel-1.jpeg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href=" https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            Talking Tech and AI with Google CEO Sundar Pichai!</a>
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="thumbnail" src="thumbnail-2.webp"></a>
+        <div class="video-time">8.22</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/c/markiplier">  <img class="profile-picture" src="channel-2.jpeg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=mP0RAo9SKZk"> 
+            Try Not To Laugh Challenge #9</a>
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"><img class="thumbnail" src="thumbnail-3.webp"></a>
+        <div class="video-time">9.13</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/user/SSSniperWolf"> <img class="profile-picture" src="channel-3.jpeg"></a>
+        </div>
+        <div class="video-info">
+            <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+            Crazy Tik Toks Taken Moments Before DISASTER</a>
+          </p>
+          <p class="video-author">
+            SSSniperWolf
+          </p>
+          <p class="video-stats">
+            12M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"> <img class="thumbnail" src="thumbnail-4.webp"></a>
+        <div class="video-time">22.09</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/c/veritasium"> <img class="profile-picture" src="channel-4.jpeg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture</a>
+          </p>
+          <p class="video-author">
+            Veritasium
+          </p>
+          <p class="video-stats">
+            18M views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"> <img class="thumbnail" src="thumbnail-5.webp"></a>
+        <div class="video-time">11.17</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <a href="https://www.youtube.com/c/CSDojo"><img class="profile-picture" src="channel-5.jpeg"></a>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+            Kadane's Algorithm to Maximum Sum Subarray Problem</a>
+          </p>
+          <p class="video-author">
+            CS Dojo
+          </p>
+          <p class="video-stats">
+            519K views &#183; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"> <img class="thumbnail" src="thumbnail-6.webp"></a>
+        <div class="video-time">19.59</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"> <img class="profile-picture" src="channel-6.jpeg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
+            Anything You Can Fit In The Circle I’ll Pay For</a>
+          </p>
+          <p class="video-author">
+            MrBeast
+          </p>
+          <p class="video-stats">
+            141M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=NJ_sGE1DUQE"> <img class="thumbnail" src="f1.webp"></a>
+        <div class="video-time">7.02</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/@Formula1"> <img class="profile-picture" src="channels4_profile.jpg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=NJ_sGE1DUQE">
+            Qualifying Highlights | 2023 Australian Grand Prix</a>
+          </p>
+          <p class="video-author">
+            FORMULA 1
+          </p>
+          <p class="video-stats">
+            1.1M views &#183; 4 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=KelQQZak5F0"> <img class="thumbnail" src="hq720 (1).webp"></a>
+        <div class="video-time">13.42</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"> <img class="profile-picture" src="unnamed.jpg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=KelQQZak5F0">
+            25 Small Details You Missed In Breaking Bad</a>
+          </p>
+          <p class="video-author">
+           Screen Rant
+          </p>
+          <p class="video-stats">
+            4.3M views &#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=_h3fOmP_04E"> <img class="thumbnail" src="hq720.webp"></a>
+        <div class="video-time">3.23</div></div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         <a href="https://www.youtube.com/channel/UCLCdyRg3u5O-EVP5p46QxcQ"> <img class="profile-picture" src="channels4_profile (1).jpg"></a>
+        </div>
+        <div class="video-info">
+           <p class="video-title"><a class="vl" href="https://www.youtube.com/watch?v=_h3fOmP_04E">
+            Out of My Mind</a>
+          </p>
+          <p class="video-author">
+            CG5
+          </p>
+          <p class="video-stats">
+            51K views &#183; 9 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</body>
+
+</html>
